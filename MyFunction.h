@@ -5,6 +5,6 @@
 #ifndef LAB1_MYFUNCTION_H
 #define LAB1_MYFUNCTION_H
 
-void getEnergy();
+void getEnergy(double e13, double e14);
 int getNumber();
 #endif //LAB1_MYFUNCTION_H

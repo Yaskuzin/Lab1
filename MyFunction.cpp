@@ -3,9 +3,10 @@
 //
 #include <iostream>
 int i = 0;
-void getEnergy(){
+void getEnergy(double e13, double e14){
     i++;
-    std::cout << "Hello, World!" << std::endl;
+    double energy = e14-e13;
+    std::cout << "Energy = "<<energy<< std::endl;
 }
 int getNumber(){
     return i;
